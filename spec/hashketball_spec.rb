@@ -1,4 +1,6 @@
+require 'pry'
 require 'spec_helper'
+
 
 describe 'hashketball' do
 
