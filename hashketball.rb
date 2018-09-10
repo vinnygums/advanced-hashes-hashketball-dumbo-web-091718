@@ -142,7 +142,7 @@ def shoe_size(player)
       binding.pry
       #if info == :players
       if value[player] != nil
-        
+        return 
         value.each do |player_name, game_stat|
           if player_name == player
             game_stat.each do |stats, number|
