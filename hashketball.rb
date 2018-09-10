@@ -139,6 +139,7 @@ def shoe_size(player)
    game_hash.each do |location, attribute|
     #attribute.each do |info, value|
       value = attribute[:players]
+      binding.pry
       #if info == :players
         value.each do |player_name, game_stat|
           if player_name == player
