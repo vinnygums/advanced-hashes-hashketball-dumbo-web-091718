@@ -143,7 +143,7 @@ def shoe_size(player)
       if value[player] != nil
         return value[player][:shoe]
       end
-    end
+  end
 end
 
 def team_colors(team_name)
