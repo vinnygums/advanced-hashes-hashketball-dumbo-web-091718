@@ -142,7 +142,6 @@ def shoe_size(player)
       #if info == :players
       if value[player] != nil
         return value[player][:shoe]
-      end
     end
   end
 end
